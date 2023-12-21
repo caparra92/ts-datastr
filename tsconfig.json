@@ -5,6 +5,7 @@
       "strictPropertyInitialization": false,
       /* Strict Type-Checking Options */
       "strict": false,                           
-      "esModuleInterop": true                
+      "esModuleInterop": true,
+      "outDir": "dist"               
     }
   }
