@@ -3,6 +3,7 @@
  * @public
  */
 export default class Stack {
+
     items: Object
     count: number
 
@@ -12,7 +13,7 @@ export default class Stack {
     }
     
     /**
-    * 
+    * The push() method inserts a new item in the stack and increments its counter size.
     * @param element
     */
     push(element: any):void {
@@ -20,6 +21,10 @@ export default class Stack {
       this.count++
     }
     
+    /**
+    * The pop() method removes the last item in the stack and returns the element.
+    * @return {any}
+    */
     pop(): any {
       if(this.isEmpty()) {
         return undefined
@@ -30,14 +35,26 @@ export default class Stack {
       return result
     }
     
+    /**
+    * The peek() method returns the last item in the stack.
+    * @return {any}
+    */
     peek(): any {
       return this.items[this.count-1]
     }
     
+    /**
+    * The size() method returns the stack's lenght.
+    * @return {number}
+    */
     size(): number {
       return this.count
     }
     
+    /**
+    * The isEmpty() method checks if the stack is empty or not.
+    * @return {boolean}
+    */
     isEmpty(): boolean {
       return this.count === 0
     }
