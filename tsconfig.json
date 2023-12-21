@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+      
+      "target": "es5",                          
+      "strictPropertyInitialization": false,
+      /* Strict Type-Checking Options */
+      "strict": false,                           
+      "esModuleInterop": true                
+    }
+  }
