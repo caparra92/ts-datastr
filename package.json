@@ -2,7 +2,7 @@
   "name": "ts-datastr",
   "version": "1.0.0",
   "description": "Typescript version of the JS data structures book made by Loiane Groner.",
-  "main": "dist",
+  "main": "dist/index.js",
   "scripts": {
     "ts": "tsc -W",
     "test": "echo \"Error: no test specified\" && exit 1",
