@@ -59,6 +59,10 @@ export default class Stack {
       return this.count === 0
     }
     
+    /**
+    * The clear() method removes all the items in the stack and reset the size counter.
+    * @return {void}
+    */
     clear(): void {
       this.items = {}
       this.count = 0
