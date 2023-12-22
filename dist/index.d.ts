@@ -1,2 +1,2 @@
-export * from './classes/Stack';
+export { Stack } from './classes/Stack';
 //# sourceMappingURL=index.d.ts.map
