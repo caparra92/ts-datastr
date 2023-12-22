@@ -4,7 +4,9 @@
   "description": "Typescript version of the JS data structures book made by Loiane Groner.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "type": "module",
+  "files": [
+    "/dist"
+  ],
   "scripts": {
     "ts": "tsc -W",
     "test": "echo \"Error: no test specified\" && exit 1",

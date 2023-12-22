@@ -1,8 +1,9 @@
 {
     "compilerOptions": {
       
-      "target": "es5", 
-      "allowJs": true,                         
+      "target": "es2019", 
+      "allowJs": true,
+      "module": "commonjs",                         
       "strictPropertyInitialization": false,
       /* Strict Type-Checking Options */
       "strict": false,                           
