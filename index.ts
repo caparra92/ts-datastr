@@ -1,1 +1,1 @@
-export * from './classes/Stack'
+export * as Stack from './classes/Stack'
