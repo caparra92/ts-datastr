@@ -1,11 +1,15 @@
 {
     "compilerOptions": {
       
-      "target": "es5",                          
+      "target": "es5", 
+      "allowJs": true,                         
       "strictPropertyInitialization": false,
       /* Strict Type-Checking Options */
       "strict": false,                           
       "esModuleInterop": true,
-      "outDir": "dist"               
+      "outDir": "dist",  
+      "declaration": true,
+      "emitDeclarationOnly": true,
+      "declarationMap": true             
     }
   }

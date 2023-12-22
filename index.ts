@@ -1,1 +1,1 @@
-export { Stack } from './classes/Stack'
+export * from './classes/Stack'
