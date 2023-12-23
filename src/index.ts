@@ -1,1 +1,3 @@
-export { default as Stack } from './classes/Stack'
+import * as pckg from './classes/Stack'
+
+export const Stack  = pckg;
