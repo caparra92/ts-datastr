@@ -2,7 +2,7 @@
  * Stack implementation class with basic operations.
  * @public
  */
-export declare class Stack {
+export default class Stack {
     items: Object;
     count: number;
     constructor();

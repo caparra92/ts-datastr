@@ -1,6 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Stack = void 0;
 /**
  * Stack implementation class with basic operations.
  * @public
@@ -75,4 +74,4 @@ class Stack {
         return objString;
     }
 }
-exports.Stack = Stack;
+exports.default = Stack;
