@@ -1,1 +1,1 @@
-export { Stack } from './classes/Stack'
+export { default as Stack } from './classes/Stack'
