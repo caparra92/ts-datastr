@@ -27,7 +27,7 @@
     "'ts-datastr']"
   ],
   "author": "Camilo Parra",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/caparra92/ts-datastr/issues"
   },

@@ -42,4 +42,3 @@ export declare class Stack {
     */
     toString(): string;
 }
-//# sourceMappingURL=Stack.d.ts.map
