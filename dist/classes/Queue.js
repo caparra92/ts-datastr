@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Queue = void 0;
 /**
- * Stack implementation class with basic operations.
+ * Queue implementation class with basic operations.
  * @public
  */
 class Queue {

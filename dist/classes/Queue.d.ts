@@ -1,5 +1,5 @@
 /**
- * Stack implementation class with basic operations.
+ * Queue implementation class with basic operations.
  * @public
  */
 export declare class Queue {
