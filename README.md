@@ -6,6 +6,7 @@ npm i ts-datastr
 
 ## Examples
 
+```javascript
 import { Deque, Queue, Stack }  from 'ts-datastr'
 
 const stack = new Stack();
@@ -25,3 +26,4 @@ console.log(stack.isEmpty());  // false
 console.log(queue.size());     // 2
 console.log(queue.toString()); // foo, 12
 console.log(deque.toString()); // foo, 32, another string
+```
