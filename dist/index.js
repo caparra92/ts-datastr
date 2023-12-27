@@ -1,6 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.LinkedList = exports.Deque = exports.Queue = exports.Stack = void 0;
+exports.LinkedList = exports.Deque = exports.Queue = exports.Stack = exports.DoublyNode = exports.Node = exports.defaultEquals = void 0;
+var defaultEquals_1 = require("./util/defaultEquals");
+Object.defineProperty(exports, "defaultEquals", { enumerable: true, get: function () { return defaultEquals_1.defaultEquals; } });
+var linked_list_models_1 = require("./models/linked-list-models");
+Object.defineProperty(exports, "Node", { enumerable: true, get: function () { return linked_list_models_1.Node; } });
+Object.defineProperty(exports, "DoublyNode", { enumerable: true, get: function () { return linked_list_models_1.DoublyNode; } });
 var Stack_1 = require("./classes/Stack");
 Object.defineProperty(exports, "Stack", { enumerable: true, get: function () { return Stack_1.Stack; } });
 var Queue_1 = require("./classes/Queue");
