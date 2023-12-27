@@ -2,7 +2,7 @@
  * Stack implementation class with basic operations.
  * @public
  */
-export declare class Stack {
+export declare class Stack<T> {
     items: Object;
     count: number;
     constructor();
@@ -10,17 +10,17 @@ export declare class Stack {
     * The push() method inserts a new item in the stack and increments its counter size.
     * @param element
     */
-    push(element: any): void;
+    push(element: T): void;
     /**
     * The pop() method removes the last item in the stack and returns the element.
-    * @return {any}
+    * @return {undefined | T}
     */
-    pop(): any;
+    pop(): undefined | T;
     /**
     * The peek() method returns the last item in the stack.
-    * @return {any}
+    * @return {T}
     */
-    peek(): any;
+    peek(): T;
     /**
     * The size() method returns the stack's lenght.
     * @return {number}

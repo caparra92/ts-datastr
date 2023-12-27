@@ -20,7 +20,7 @@ class Stack {
     }
     /**
     * The pop() method removes the last item in the stack and returns the element.
-    * @return {any}
+    * @return {undefined | T}
     */
     pop() {
         if (this.isEmpty()) {
@@ -33,7 +33,7 @@ class Stack {
     }
     /**
     * The peek() method returns the last item in the stack.
-    * @return {any}
+    * @return {T}
     */
     peek() {
         return this.items[this.count - 1];
