@@ -14,6 +14,7 @@ export class Node<T> {
 
 export class DoublyNode<T> extends Node<T>{
     prev: DoublyNode<T>
+    next: DoublyNode<T>
 
     constructor(element: T, next?: DoublyNode<T>, prev?: DoublyNode<T>) {
         super(element, next);

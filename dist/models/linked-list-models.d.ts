@@ -9,5 +9,6 @@ export declare class Node<T> {
 }
 export declare class DoublyNode<T> extends Node<T> {
     prev: DoublyNode<T>;
+    next: DoublyNode<T>;
     constructor(element: T, next?: DoublyNode<T>, prev?: DoublyNode<T>);
 }
