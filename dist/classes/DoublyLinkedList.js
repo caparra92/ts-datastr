@@ -24,7 +24,7 @@ class DoublyLinkedList extends LinkedList_1.LinkedList {
             const node = new linked_list_models_1.DoublyNode(element);
             let current = this.head;
             if (index === 0) {
-                if (this.head === null) {
+                if (this.head === undefined) {
                     this.head = node;
                     this.tail = node;
                 }
