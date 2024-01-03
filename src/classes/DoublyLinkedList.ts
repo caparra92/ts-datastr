@@ -21,7 +21,7 @@ export class DoublyLinkedList<T> extends LinkedList<T> {
    * @return {boolean}
    */
     insert(element, index) {
-      if(index >= 0 && index < this.count) {
+      if(index >= 0 && index <= this.count) {
         const node = new DoublyNode(element);
         let current = this.head;
         if(index === 0) {
@@ -58,7 +58,7 @@ export class DoublyLinkedList<T> extends LinkedList<T> {
     * @return {undefined | T}
     */
     removeAt(index) {
-        if(index >= 0 && index < this.count) {
+        if(index >= 0 && index <= this.count) {
             let current = this.head;
             if(index === 0) {
                 this.head = current.next;

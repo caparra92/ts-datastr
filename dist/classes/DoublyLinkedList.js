@@ -20,7 +20,7 @@ class DoublyLinkedList extends LinkedList_1.LinkedList {
    * @return {boolean}
    */
     insert(element, index) {
-        if (index >= 0 && index < this.count) {
+        if (index >= 0 && index <= this.count) {
             const node = new linked_list_models_1.DoublyNode(element);
             let current = this.head;
             if (index === 0) {
@@ -59,7 +59,7 @@ class DoublyLinkedList extends LinkedList_1.LinkedList {
     * @return {undefined | T}
     */
     removeAt(index) {
-        if (index >= 0 && index < this.count) {
+        if (index >= 0 && index <= this.count) {
             let current = this.head;
             if (index === 0) {
                 this.head = current.next;
