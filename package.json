@@ -1,6 +1,6 @@
 {
   "name": "ts-datastr",
-  "version": "1.4.3",
+  "version": "1.5.0",
   "description": "Typescript version of the JS data structures book made by Loiane Groner.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
