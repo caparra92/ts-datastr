@@ -3,6 +3,19 @@
 ## Installation
 
 npm i ts-datastr
+ 
+## Latest version
+
+1.5.0
+
+## Cointains
+
+- Stack
+- Deque
+- Queue
+- Linked List
+- Doubly Linked List
+- Sorted Linked List
 
 ## Examples
 
