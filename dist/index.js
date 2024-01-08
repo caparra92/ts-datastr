@@ -1,8 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.DoublyLinkedList = exports.LinkedList = exports.Deque = exports.Queue = exports.Stack = exports.DoublyNode = exports.Node = exports.defaultEquals = void 0;
+exports.SortedLinkedList = exports.DoublyLinkedList = exports.LinkedList = exports.Deque = exports.Queue = exports.Stack = exports.DoublyNode = exports.Node = exports.defaultCompare = exports.defaultEquals = void 0;
 var defaultEquals_1 = require("./util/defaultEquals");
 Object.defineProperty(exports, "defaultEquals", { enumerable: true, get: function () { return defaultEquals_1.defaultEquals; } });
+var defaultCompare_1 = require("./util/defaultCompare");
+Object.defineProperty(exports, "defaultCompare", { enumerable: true, get: function () { return defaultCompare_1.defaultCompare; } });
 var linked_list_models_1 = require("./models/linked-list-models");
 Object.defineProperty(exports, "Node", { enumerable: true, get: function () { return linked_list_models_1.Node; } });
 Object.defineProperty(exports, "DoublyNode", { enumerable: true, get: function () { return linked_list_models_1.DoublyNode; } });
@@ -16,3 +18,5 @@ var LinkedList_1 = require("./classes/LinkedList");
 Object.defineProperty(exports, "LinkedList", { enumerable: true, get: function () { return LinkedList_1.LinkedList; } });
 var DoublyLinkedList_1 = require("./classes/DoublyLinkedList");
 Object.defineProperty(exports, "DoublyLinkedList", { enumerable: true, get: function () { return DoublyLinkedList_1.DoublyLinkedList; } });
+var SortedLinkedList_1 = require("./classes/SortedLinkedList");
+Object.defineProperty(exports, "SortedLinkedList", { enumerable: true, get: function () { return SortedLinkedList_1.SortedLinkedList; } });
